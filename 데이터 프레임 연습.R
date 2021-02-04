@@ -19,3 +19,8 @@ Library(readxl)
 
 read_sheet <- read_excel("./0203 sample data.xlsx",sheet=3) #sheet는 따로 콤마로 표시해야 함
 View(read_sheet)
+
+read_csv_data <- read.csv("./0203 sample_csv_data.csv") #csv는 뒤에 점이고 언더바가 아니다.
+view(read_csv_data)
+
+
